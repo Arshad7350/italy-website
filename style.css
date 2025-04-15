@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:@400;500;700;900;&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+*{
+    font-family: 'Lato',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)) , url(assets/background.jpg);
+    width: 100%;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60%; 
+}
+.italy{
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 40px;
+}
+.section-container{
+    margin-left: 150px;
+}
+.section-container p{
+    color: #fff;
+    float: left;
+}
+ul{
+    list-style: none;
+    margin-left: 980px;
+}
+ul li{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+}
+li {
+    padding: 15px;
+    font-weight: 300;
+    padding-top: 25px;
+}
+  
+li select{
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+.head{
+    text-align: center;
+    padding-top: 20rem;
+    font-weight: 300;
+    font-size: 38px;
+    color: #fff;
+}
+.content h5{
+    display: inline-block;
+    background-color: #fff;
+    padding: 15px 90px 15px 90px;
+    border-radius: 30px;
+}
+.imp{
+    margin-left: 45px;
+    margin-top: 30px;
+}
+.place h6{
+    float: right;
+    margin-right: 150px;
+    font-size: 15px;
+    color: #4e4c4c;
+}
+.place h1{
+    font-size: 50px;
+}
+.place button{
+    background-color: green;
+    border-radius: 50%;
+    border: none;
+    padding: 5px 8px 5px 8px;
+    color: #fff;
+}
+.pic1{
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic2{
+    float: left;
+    padding-left: 10px;
+}
+.pic3{
+    float: left;
+    padding-left: 10px;
+}
+.pic4{
+    float: left;
+    padding-left: 10px;
+}
+.pic5{
+    float: left;
+    padding-left: 10px;
+}
+.image img{
+    border-radius: 10px;
+}
+.image img:hover{
+    filter: brightness(80%) hue-rotate(30deg);
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.content i{
+    padding-right: 6px;
+    color: #000;
+}
